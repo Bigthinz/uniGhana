@@ -30,12 +30,7 @@ const TopNav = () => {
           <div className='flex lg:flex-1'>
             <a href='#' className='-m-1.5 flex p-1.5'>
               <span className=' sr-only'>Just go health</span>
-              <Image
-                src='/images/justgo-logo.png'
-                alt='logo'
-                width='200'
-                height='200'
-              />
+              <Image src='/images/logo.png' alt='logo' width='50' height='50' />
             </a>
           </div>
           <div className='flex lg:hidden'>
@@ -54,7 +49,7 @@ const TopNav = () => {
               href='#'
               className='text-sm font-semibold leading-6 text-gray-900'
             >
-              Get started <span aria-hidden='true'>&rarr;</span>
+              Login <span aria-hidden='true'>&rarr;</span>
             </a>
           </div>
         </nav>
@@ -71,7 +66,7 @@ const TopNav = () => {
           >
             <div className='flex items-center justify-between'>
               <a href='#' className='-m-1.5 p-1.5'>
-                <span className='sr-only'>Buzcure</span>
+                <span className='sr-only'>uniHub</span>
                 {/* <img
                   className="h-8 w-auto"
                   src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
@@ -94,7 +89,7 @@ const TopNav = () => {
                     href='#'
                     className='-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50'
                   >
-                    Get started!
+                    Login
                   </a>
                 </div>
               </div>

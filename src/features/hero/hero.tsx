@@ -4,8 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
-import { TopNav } from '..';
-
 const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Features', href: '#' },

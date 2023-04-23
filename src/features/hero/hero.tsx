@@ -1,10 +1,10 @@
 import { Dialog } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 
 import { TopNav } from '..';
-import Link from 'next/link';
 
 const navigation = [
   { name: 'Product', href: '#' },

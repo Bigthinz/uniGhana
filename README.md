@@ -12,11 +12,9 @@ The University Information Hub is a website that provides comprehensive and reli
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- jQuery
+- Nextjs
+- TypeScript
+- Tailwindcss
 
 ## Getting Started
 

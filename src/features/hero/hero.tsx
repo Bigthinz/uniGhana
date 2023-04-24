@@ -1,22 +1,10 @@
-import { Dialog } from '@headlessui/react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
-
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-];
 
 export default function Hero() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
 
   return (
-    <div className='isolate  '>
+    <div className='isolate '>
       <div className='absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]'>
         <svg
           className='relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]'
@@ -50,10 +38,10 @@ export default function Hero() {
           //     backgroundImage: "url('/images/grad.jpg')",
           //   }}
         >
-          <div className='absolute inset-0   opacity-50'></div>
-          <div className='m-auto  max-w-7xl '>
+          <div className='absolute inset-0 opacity-50'></div>
+          <div className='m-auto max-w-7xl '>
             {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-white ring-1 ring-white hover:ring-white">
+              <div className="relative px-3 py-1 text-sm leading-6 text-white rounded-full ring-1 ring-white hover:ring-white">
                 New to business? No problem.{' '}
                 <a href="#" className="font-semibold text-[#54BB6A]">
                   <span className="absolute inset-0" aria-hidden="true" />
@@ -61,7 +49,7 @@ export default function Hero() {
                 </a>
               </div>
             </div> */}
-            {/* <div className='grid h-screen grid-cols-2 items-center justify-center gap-4'>
+            {/* <div className='grid items-center justify-center h-screen grid-cols-2 gap-4'>
               <div className='text-center'>
                 <h1 className='mb-4 text-4xl font-bold'>Anytime, anywhere,</h1>
                 <h2 className='mb-4 text-2xl font-semibold'>
@@ -86,7 +74,7 @@ export default function Hero() {
             <section className='body-font relative text-gray-600'>
               <div className='container mx-auto flex flex-col items-center px-2 py-24 md:flex-row'>
                 <div className='mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24'>
-                  <h1 className='title-font  mb-4 text-3xl font-semibold text-gray-900 sm:text-5xl'>
+                  <h1 className='title-font mb-4 text-3xl font-semibold text-gray-900 sm:text-5xl'>
                     Anytime, anywhere, Take lectures & classes at your own pace.
                   </h1>
                   <p className='mb-8 leading-relaxed'>
@@ -97,8 +85,8 @@ export default function Hero() {
                   </p>
                   <div className='flex justify-center'>
                     <Link href='/login'>
-                      <button className='inline-flex rounded border-0 bg-[#9B2035] py-2 px-10 font-medium text-white hover:bg-[#9b2034eb] focus:outline-none'>
-                        Sign up
+                      <button className='inline-flex rounded border-0 bg-colorPrimary px-10 py-2 text-white hover:bg-colorPrimary hover:opacity-90 focus:outline-none'>
+                        Sign up today
                       </button>
                     </Link>
                   </div>
@@ -107,7 +95,7 @@ export default function Hero() {
                   <img
                     className='rounded object-cover object-center'
                     alt='hero'
-                    src='/images/uni.png'
+                    src='/images/unilogo.png'
                   />
                 </div>
               </div>

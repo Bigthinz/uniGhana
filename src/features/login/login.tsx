@@ -1,20 +1,21 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { ImGoogle } from 'react-icons/im';
 
 export default function Login() {
   return (
     <>
       <div className='flex min-h-[100vh] flex-1'>
-        <div className='flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24'>
-          <div className='mx-auto w-full max-w-sm lg:w-96'>
+        <div className='flex flex-col justify-center flex-1 px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24'>
+          <div className='w-full max-w-sm mx-auto lg:w-96'>
             <div>
-              <a href='#' className='-m-1.5 flex p-1.5'>
+              <Link href='/' className='-m-1.5 flex p-1.5'>
                 <span className='sr-only '>Unihub</span>
                 <span className='text-2xl font-bold '>
                   Uni<span className='text-colorPrimary'>hub..</span>
                 </span>
                 {/* <Image src='/images/logo.png' alt='logo' width='50' height='50' /> */}
-              </a>
+              </Link>
               <h2 className='mt-8 text-2xl font-bold leading-9 tracking-tight text-gray-900'>
                 Sign in to your account
               </h2>
@@ -22,7 +23,7 @@ export default function Login() {
                 Not a member?{' '}
                 <a
                   href='#'
-                  className='font-semibold text-[#AA3A44] hover:text-[#AA3A44]'
+                  className='font-semibold text-colorPrimary hover:text-colorPrimary hover:opacity-90'
                 >
                   Sign up here
                 </a>
@@ -76,11 +77,11 @@ export default function Login() {
                         id='remember-me'
                         name='remember-me'
                         type='checkbox'
-                        className='h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600'
+                        className='w-4 h-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-600'
                       />
                       <label
                         htmlFor='remember-me'
-                        className='ml-3 block text-sm leading-6 text-gray-700'
+                        className='block ml-3 text-sm leading-6 text-gray-700'
                       >
                         Remember me
                       </label>
@@ -113,13 +114,13 @@ export default function Login() {
                     <div className='w-full border-t border-gray-200' />
                   </div>
                   <div className='relative flex justify-center text-sm font-medium leading-6'>
-                    <span className='bg-white px-6 text-gray-900'>
+                    <span className='px-6 text-gray-900 bg-white'>
                       Or continue with
                     </span>
                   </div>
                 </div>
 
-                <div className='mt-6 grid grid-cols-1 gap-4'>
+                <div className='grid grid-cols-1 gap-4 mt-6'>
                   <a
                     href='#'
                     className='flex w-full items-center justify-center gap-3 rounded-md border bg-gray-50 px-3 py-1.5 text-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1D9BF0]'
@@ -134,7 +135,7 @@ export default function Login() {
             </div>
           </div>
         </div>
-        <div className='relative hidden w-0 flex-1 lg:block'>
+        <div className='relative flex-1 hidden w-0 lg:block'>
           <div
             className='absolute inset-0 z-[-1] bg-cover bg-center'
             style={{

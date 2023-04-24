@@ -105,16 +105,22 @@ const HomePage = () => {
                 key={image.id}
                 className={`flex h-full flex-col justify-end col-span-${image.span}`}
               >
-                <div className='bg-gray-200 p-4'>
-                  <Image
+                <div
+                  className='h-[400px] bg-gray-200 p-4'
+                  style={{
+                    backgroundImage: `url('${image.src}')`,
+                    backgroundSize: 'cover',
+                  }}
+                >
+                  {/* <Image
                     src={image.src}
                     alt={image.alt}
                     width={image.width}
                     height={image.height}
                     layout='responsive'
-                  />
+                  /> */}
                 </div>
-                <p className=''>{image.desc}</p>
+                <p className='mt-5 text-lg font-medium'>{image.desc}</p>
               </div>
             ))}
           </div>

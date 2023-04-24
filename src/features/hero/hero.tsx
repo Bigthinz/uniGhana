@@ -75,13 +75,13 @@ export default function Hero() {
               <div className='container mx-auto flex flex-col items-center px-2 py-24 md:flex-row'>
                 <div className='mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24'>
                   <h1 className='title-font mb-4 text-3xl font-semibold text-gray-900 sm:text-5xl'>
-                    Anytime, anywhere, Take lectures & classes at your own pace.
+                    Discover Your Dream University with The University
+                    Information Hub.
                   </h1>
                   <p className='mb-8 leading-relaxed'>
-                    Copper mug try-hard pitchfork pour-over freegan heirloom
-                    neutra air plant cold-pressed tacos poke beard tote bag.
-                    Heirloom echo park mlkshk tote bag selvage hot chicken
-                    authentic tumeric truffaut hexagon try-hard chambray.
+                    - Your Ultimate Guide to Higher Education. Discover Your
+                    Path to Higher Education and Research with Our Comprehensive
+                    University Information Hub
                   </p>
                   <div className='flex justify-center'>
                     <Link href='/login'>

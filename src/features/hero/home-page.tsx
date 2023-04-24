@@ -72,7 +72,7 @@ const HomePage = () => {
   return (
     <div className='mx-auto max-w-7xl'>
       <Hero />
-      <div className='mt-60 sm:mt-52'>
+      <div className='mt-60 px-4 sm:mt-52'>
         <div className='px-4 md:px-8 lg:px-12'>
           <h1 className='mb-8 max-w-xl text-4xl font-bold md:mb-10 md:text-5xl'>
             Explore What We Have For You

@@ -24,6 +24,7 @@ module.exports = {
           900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
         },
         dark: '#222222',
+        colorPrimary: '#EC4245',
         btnDefault: '#FF914D',
         btnHover: '#FC7B2C',
         btnGoogle: 'rgba(229, 229, 229, 0.44)',

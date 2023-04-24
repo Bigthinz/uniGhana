@@ -8,13 +8,13 @@ export default function Login() {
         <div className='flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24'>
           <div className='mx-auto w-full max-w-sm lg:w-96'>
             <div>
-              <Image
-                className='h-10 w-auto'
-                src='/images/logo.png'
-                alt='Your Company'
-                width='50'
-                height='50'
-              />
+              <a href='#' className='-m-1.5 flex p-1.5'>
+                <span className='sr-only '>Unihub</span>
+                <span className='text-2xl font-bold '>
+                  Uni<span className='text-colorPrimary'>hub..</span>
+                </span>
+                {/* <Image src='/images/logo.png' alt='logo' width='50' height='50' /> */}
+              </a>
               <h2 className='mt-8 text-2xl font-bold leading-9 tracking-tight text-gray-900'>
                 Sign in to your account
               </h2>

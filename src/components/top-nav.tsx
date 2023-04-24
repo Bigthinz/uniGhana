@@ -21,16 +21,19 @@ const TopNav = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className='sticky top-0  z-20 bg-white bg-opacity-25 backdrop-blur-lg backdrop-saturate-150'>
-      <header className='sticky top-0  z-20 bg-white bg-opacity-25 backdrop-blur-lg backdrop-saturate-150'>
+    <div className='sticky top-0 z-20 bg-white bg-opacity-25 backdrop-blur-lg backdrop-saturate-150'>
+      <header className='sticky top-0 z-20 bg-white bg-opacity-25 backdrop-blur-lg backdrop-saturate-150'>
         <nav
-          className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8'
+          className='mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8'
           aria-label='Global'
         >
           <div className='flex lg:flex-1'>
             <a href='#' className='-m-1.5 flex p-1.5'>
-              <span className=' sr-only'>Just go health</span>
-              <Image src='/images/logo.png' alt='logo' width='50' height='50' />
+              <span className='sr-only '>Unihub</span>
+              <span className='text-2xl font-bold '>
+                Uni<span className='text-colorPrimary'>hub..</span>
+              </span>
+              {/* <Image src='/images/logo.png' alt='logo' width='50' height='50' /> */}
             </a>
           </div>
           <div className='flex lg:hidden'>
@@ -68,7 +71,7 @@ const TopNav = () => {
               <a href='#' className='-m-1.5 p-1.5'>
                 <span className='sr-only'>uniHub</span>
                 {/* <img
-                  className="h-8 w-auto"
+                  className="w-auto h-8"
                   src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                   alt=""
                 /> */}
